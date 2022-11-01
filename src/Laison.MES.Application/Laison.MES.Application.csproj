@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--<Import Project="..\..\common.props" />-->
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Laison.MES.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Laison.Lapis.Shared.Application" Version="1.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <!--<ProjectReference Include="..\..\..\Laison.Lapis.Shared\src\Laison.Lapis.Shared.Application\Laison.Lapis.Shared.Application.csproj" />-->
+    <ProjectReference Include="..\Laison.MES.Application.Contracts\Laison.MES.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Laison.MES.Domain\Laison.MES.Domain.csproj" />
+    <ProjectReference Include="..\Laison.MES.EntityFrameworkCore\Laison.MES.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

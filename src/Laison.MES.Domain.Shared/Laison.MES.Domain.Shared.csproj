@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--<Import Project="..\..\common.props" />-->
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Laison.MES.Domain.Shared</RootNamespace>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Laison.Lapis.Shared" Version="1.0.7" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="6.0.*" />
+  </ItemGroup>
+	
+	<ItemGroup>
+ 	<!--<ProjectReference Include="..\..\..\Laison.Lapis.Shared\src\Laison.Lapis.Shared\Laison.Lapis.Shared.csproj" />-->
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Folder Include="Consts\" />
+		<Folder Include="Enums\" />
+	</ItemGroup>
+</Project>

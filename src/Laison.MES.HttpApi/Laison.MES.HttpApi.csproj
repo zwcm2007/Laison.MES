@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--<Import Project="..\..\common.props" />-->
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Laison.MES.HttpApi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Laison.Lapis.Shared.HttpApi" Version="1.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <!--<ProjectReference Include="..\..\..\Laison.Lapis.Shared\src\Laison.Lapis.Shared.HttpApi\Laison.Lapis.Shared.HttpApi.csproj" />-->
+	  <ProjectReference Include="..\Laison.MES.Application.Contracts\Laison.MES.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

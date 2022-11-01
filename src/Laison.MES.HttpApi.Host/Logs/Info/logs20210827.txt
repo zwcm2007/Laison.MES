@@ -1,0 +1,68 @@
+2021-08-27 05:31:34.918 +08:00 [INF] Starting web host.
+2021-08-27 05:31:45.793 +08:00 [INF] User profile is available. Using 'C:\Users\fjq\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-27 05:31:46.049 +08:00 [INF] Loaded ABP modules:
+2021-08-27 05:31:46.052 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-08-27 05:31:46.052 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-08-27 05:31:46.053 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-08-27 05:31:46.054 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-08-27 05:31:46.055 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-08-27 05:31:46.056 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-08-27 05:31:46.056 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-08-27 05:31:46.057 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-08-27 05:31:46.057 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-08-27 05:31:46.058 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-08-27 05:31:46.058 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-08-27 05:31:46.059 +08:00 [INF] - Laison.Lapis.Shared.LapisSharedModule
+2021-08-27 05:31:46.059 +08:00 [INF] - Laison.MES.Domain.Shared.LapisMESDomainSharedModule
+2021-08-27 05:31:46.060 +08:00 [INF] - Laison.MES.Domain.LapisMESDomainModule
+2021-08-27 05:31:46.060 +08:00 [INF] - Laison.MES.Application.Contracts.LapisMESApplicationContractsModule
+2021-08-27 05:31:46.061 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-08-27 05:31:46.061 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-08-27 05:31:46.062 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-08-27 05:31:46.063 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-08-27 05:31:46.063 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-08-27 05:31:46.064 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-08-27 05:31:46.064 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-08-27 05:31:46.065 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-08-27 05:31:46.065 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-08-27 05:31:46.066 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-08-27 05:31:46.067 +08:00 [INF] - Laison.Lapis.Shared.Domain.LapisSharedDomainModule
+2021-08-27 05:31:46.067 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-08-27 05:31:46.069 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-08-27 05:31:46.080 +08:00 [INF] - Laison.Lapis.Shared.Application.Contracts.LapisSharedApplicationContractsModule
+2021-08-27 05:31:46.089 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-08-27 05:31:46.090 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-08-27 05:31:46.091 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-08-27 05:31:46.091 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2021-08-27 05:31:46.092 +08:00 [INF] - Laison.Lapis.Shared.Application.LapisSharedApplicationModule
+2021-08-27 05:31:46.093 +08:00 [INF] - Laison.MES.Application.LapisMESApplicationModule
+2021-08-27 05:31:46.094 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-08-27 05:31:46.095 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-08-27 05:31:46.096 +08:00 [INF] - Laison.Lapis.Shared.EntityFrameworkCore.LapisSharedEntityFrameworkCoreModule
+2021-08-27 05:31:46.097 +08:00 [INF] - Laison.MES.EntityFrameworkCore.LapisMESEntityFrameworkCoreModule
+2021-08-27 05:31:46.098 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-08-27 05:31:46.098 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-08-27 05:31:46.099 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-08-27 05:31:46.100 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-08-27 05:31:46.106 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-08-27 05:31:46.107 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-08-27 05:31:46.108 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2021-08-27 05:31:46.109 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-08-27 05:31:46.110 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-08-27 05:31:46.110 +08:00 [INF] - Laison.MES.HttpApi.LapisMESHttpApiModule
+2021-08-27 05:31:46.111 +08:00 [INF] - Laison.Lapis.Shared.HttpApi.LapisSharedHttpApiModule
+2021-08-27 05:31:46.112 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2021-08-27 05:31:46.113 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2021-08-27 05:31:46.114 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2021-08-27 05:31:46.115 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2021-08-27 05:31:46.115 +08:00 [INF] - Laison.Lapis.Shared.Host.LapisSharedHostModule
+2021-08-27 05:31:46.116 +08:00 [INF] - Laison.MES.MESHttpApiHostModule
+2021-08-27 05:31:48.206 +08:00 [INF] Initialized all ABP modules.
+2021-08-27 05:31:48.396 +08:00 [INF] Now listening on: http://localhost:5000
+2021-08-27 05:31:48.399 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-27 05:31:48.399 +08:00 [INF] Hosting environment: Development
+2021-08-27 05:31:48.400 +08:00 [INF] Content root path: E:\莱宸工作区\WorkSpace\01_Framework\Lapis.Framework\templates\module\aspnet-core\host\Laison.MES.HttpApi.Host
+2021-08-27 05:32:39.787 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-08-27 05:32:41.117 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 1331.6088ms
+2021-08-27 05:32:41.429 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/Default/swagger.json - -
+2021-08-27 05:32:42.096 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/Default/swagger.json - - - 200 - application/json;charset=utf-8 666.8092ms
