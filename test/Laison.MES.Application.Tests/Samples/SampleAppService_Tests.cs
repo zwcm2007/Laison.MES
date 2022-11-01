@@ -7,11 +7,11 @@ namespace Laison.MES.Samples
 {
     public class SampleAppService_Tests : MESApplicationTestBase
     {
-        private readonly IOrderAppService _orderAppService;
+        private readonly IUserAppService _orderAppService;
 
         public SampleAppService_Tests()
         {
-            _orderAppService = GetRequiredService<IOrderAppService>();
+            _orderAppService = GetRequiredService<IUserAppService>();
         }
 
         //[Fact]

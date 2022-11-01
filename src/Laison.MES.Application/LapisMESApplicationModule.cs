@@ -24,14 +24,14 @@ namespace Laison.MES.Application
             });
 
 
-            //Configure<AbpAspNetCoreMvcOptions>(options =>
-            //{
-            //    options.ConventionalControllers
-            //        .Create(typeof(LapisMESApplicationModule).Assembly, opts =>
-            //        {
-            //            opts.RootPath = "MES";
-            //        });
-            //});
+            Configure<AbpAspNetCoreMvcOptions>(options =>
+            {
+                options.ConventionalControllers
+                    .Create(typeof(LapisMESApplicationModule).Assembly, opts =>
+                    {
+                        opts.RootPath = "MES";
+                    });
+            });
         }
     }
 }

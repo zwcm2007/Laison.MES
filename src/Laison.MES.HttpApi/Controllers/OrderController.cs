@@ -8,11 +8,11 @@ namespace Laison.MES.HttpApi
 {
     [RemoteService]
     [Route("api/MES/order")]
-    public class OrderController : MESControllerBase, IOrderAppService
+    public class OrderController : MESControllerBase, IUserAppService
     {
-        private readonly IOrderAppService _orderAppService;
+        private readonly IUserAppService _orderAppService;
 
-        public OrderController(IOrderAppService orderAppService)
+        public OrderController(IUserAppService orderAppService)
         {
             _orderAppService = orderAppService;
         }
