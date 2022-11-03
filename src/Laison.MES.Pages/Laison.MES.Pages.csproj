@@ -11,6 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\assets\403.svg" />
+    <Content Remove="wwwroot\assets\logo.svg" />
     <Content Remove="wwwroot\exampleJsInterop.js" />
   </ItemGroup>
 
@@ -27,7 +29,11 @@
 
   <ItemGroup>
     <Folder Include="Pages\" />
-    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\403.svg" />
+    <None Include="wwwroot\assets\logo.svg" />
   </ItemGroup>
 
 </Project>
