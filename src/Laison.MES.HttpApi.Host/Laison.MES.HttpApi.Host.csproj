@@ -10,63 +10,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AntDesign.Charts" Version="0.2.3" />
-    <PackageReference Include="AntDesign.ProLayout" Version="0.12.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
-    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
     <PackageReference Include="Laison.Lapis.Shared.Host" Version="1.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.*" />
   </ItemGroup>
 
   <ItemGroup>
 	<ProjectReference Include="..\..\src\Laison.MES.Application\Laison.MES.Application.csproj" />
 	<ProjectReference Include="..\..\src\Laison.MES.EntityFrameworkCore\Laison.MES.EntityFrameworkCore.csproj" />
-	<!--<ProjectReference Include="..\..\..\Laison.Lapis.Shared\src\Laison.Lapis.Shared.Host\Laison.Lapis.Shared.Host.csproj" />-->
   </ItemGroup>	
   <ItemGroup>
     <Compile Remove="Logs\**" />
-    <Compile Remove="Pages\Account\**" />
-    <Compile Remove="Pages\Dashboard\**" />
-    <Compile Remove="Pages\Exception\**" />
-    <Compile Remove="Pages\Form\**" />
-    <Compile Remove="Pages\List\**" />
-    <Compile Remove="Pages\Profile\**" />
-    <Compile Remove="Pages\Result\**" />
     <Content Remove="Logs\**" />
-    <Content Remove="Pages\Account\**" />
-    <Content Remove="Pages\Dashboard\**" />
-    <Content Remove="Pages\Exception\**" />
-    <Content Remove="Pages\Form\**" />
-    <Content Remove="Pages\List\**" />
-    <Content Remove="Pages\Profile\**" />
-    <Content Remove="Pages\Result\**" />
     <EmbeddedResource Remove="Logs\**" />
-    <EmbeddedResource Remove="Pages\Account\**" />
-    <EmbeddedResource Remove="Pages\Dashboard\**" />
-    <EmbeddedResource Remove="Pages\Exception\**" />
-    <EmbeddedResource Remove="Pages\Form\**" />
-    <EmbeddedResource Remove="Pages\List\**" />
-    <EmbeddedResource Remove="Pages\Profile\**" />
-    <EmbeddedResource Remove="Pages\Result\**" />
     <None Remove="Logs\**" />
-    <None Remove="Pages\Account\**" />
-    <None Remove="Pages\Dashboard\**" />
-    <None Remove="Pages\Exception\**" />
-    <None Remove="Pages\Form\**" />
-    <None Remove="Pages\List\**" />
-    <None Remove="Pages\Profile\**" />
-    <None Remove="Pages\Result\**" />
   </ItemGroup>	
   <ItemGroup>
-    <None Include="Layouts\BasicLayout.razor" />
-    <None Include="Layouts\UserLayout.razor" />
-    <None Include="Pages\User\Login\Login.razor" />
-    <None Include="Pages\User\RegisterResult\RegisterResult.razor" />
-    <None Include="Pages\User\Register\Register.razor" />
-    <None Include="wwwroot\assets\403.svg" />
-    <None Include="wwwroot\assets\logo.svg" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>

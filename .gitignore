@@ -252,7 +252,4 @@ paket-files/
 *.sln.iml
 
 # MES
-host/Laison.MES.IdentityServer/Logs/logs.txt
-host/Laison.MES.HttpApi.Host/Logs/logs.txt
-host/Laison.MES.Web.Host/Logs/logs.txt
-host/Laison.MES.Web.Unified/Logs/logs.txt
+/src/Laison.MES.HttpApi.Host/Logs
