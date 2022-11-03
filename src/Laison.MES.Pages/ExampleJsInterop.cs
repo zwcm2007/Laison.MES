@@ -1,6 +1,6 @@
 using Microsoft.JSInterop;
 
-namespace Laison.MES.RazorShared
+namespace Laison.MES.Pages
 {
     // This class provides an example of how JavaScript functionality can be wrapped
     // in a .NET class for easy consumption. The associated JavaScript module is
@@ -16,7 +16,7 @@ namespace Laison.MES.RazorShared
         public ExampleJsInterop(IJSRuntime jsRuntime)
         {
             moduleTask = new(() => jsRuntime.InvokeAsync<IJSObjectReference>(
-                "import", "./_content/Laison.MES.RazorShared/exampleJsInterop.js").AsTask());
+                "import", "./_content/Laison.MES.Pages/exampleJsInterop.js").AsTask());
         }
 
         public async ValueTask<string> Prompt(string message)
