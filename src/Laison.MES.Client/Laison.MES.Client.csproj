@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,8 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Shared\MainLayout.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Shared\MainLayout.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\403.svg" />
+    <None Include="wwwroot\assets\logo.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AntDesign" Version="0.12.6" />
+    <PackageReference Include="AntDesign.Charts" Version="0.2.3" />
+    <PackageReference Include="AntDesign.ProLayout" Version="0.12.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+
   </ItemGroup>
 
   <ItemGroup>
