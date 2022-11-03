@@ -28,10 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\assets\403.svg" />
     <None Include="wwwroot\assets\logo.svg" />
   </ItemGroup>
